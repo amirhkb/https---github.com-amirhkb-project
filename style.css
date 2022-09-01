@@ -1,0 +1,180 @@
+
+.PG-loading {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 5px  solid black;
+        border-top-color: orange;
+        animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+            100% {transform: rotate(360deg);}
+}
+
+/* $ . ~ . * .+.>    : combanitor  */
+
+
+.PH-button:hover {
+    padding: 9px ;
+    background-color: black;
+    color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+}
+.PH-button {
+    background-color: black;
+    color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+    padding: 5px;
+}
+
+.border {
+background-color: cadetblue;
+color: brown;
+padding: 10px;
+border: 4px solid indianred;
+margin: 20px;
+}
+
+.border:hover {
+    background-color: crimson;
+    color:blueviolet ;
+    padding: 10px;
+    border: 4px solid lightsalmon;
+    margin: 20px;
+}
+
+#login-form {
+    padding: 15px 30px 20px 15px;
+    margin-left: 200px;
+    background: linear-gradient(to right ,rgba(241, 144, 102,1.0), #f5f6fa 5% , #f5f6fa 95% , rgba(241, 144, 102,1.0));
+    margin-right: 55%;
+    border: 4px solid rgba(241, 144, 102,1.0) ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    filter: drop-shadow(10px 0px 20px black);
+    font-family: serif;
+}
+#login-form:hover {
+    filter: drop-shadow(10px 0px 14px black);
+}
+#login-h2 {
+    margin: 0px 0px 10px 130px;
+    color: black;
+    font-size: 20px;
+}
+
+.between {
+    margin: 10px;
+}
+#login-rememberme {
+ border: 2px solid black;
+}
+form label {
+    font-size: 20px;
+}
+.label-remember {
+    color: black;
+    font-size: large;
+    margin-left: 60px;
+    font-size: 20px;
+    
+}
+#login-button {
+    margin-top: 20px;
+    margin-left: 42%;
+    margin-bottom: 20px;
+    background-color: #dfe4ea;
+    border: 3px solid black;
+}
+#login-button:hover {
+    background-color:rgba(241, 144, 102,1.0) ;
+    border: 3px solid  black;   
+}
+#login-text:hover {
+    color: black;
+}
+.forgot-pass {
+    margin-bottom: 10px;
+}
+#login-text {
+    color: black;
+}
+.login-form-input:hover {
+    background: radial-gradient(ellipse at top ,wheat , white );
+    color: rgba(241, 144, 102,1.0);
+}
+.login-form-input {
+    margin-left: 60px;
+}
+.css-h2 {
+    width: 30%;
+    margin: 10px;
+}
+ul {
+    margin-left: 10%;
+    padding: 10px;
+    color: black;
+    border: 3px solid ,rgba(241, 144, 102,1.0);
+}
+.form-input {
+    color: black;
+    margin-left: 60px;;
+}
+.hr {
+    border: 3px solid black;
+}
+#click {
+    color: goldenrod;
+}
+.href {
+    color: black;
+}
+#background {
+    color: lightcyan;
+    width: 100%;
+    /* background: url(./images/800px-Gigachad.png) 00px 50%/cover no-repeat border-box fixed ; */
+    /*background-size: cover;
+    background-color: red;
+    background-position:0 50%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-attachment: fixed; */
+    /* background: linear-gradient( to right , #1F1C2C,  #928DAB)  border-box; */
+    background: linear-gradient( 140deg ,  rgba(247, 183, 49, .6) , rgba(75, 101, 132, .4) ) , url(./images/pexels-daniela-constantini-5591734.jpg) 0 50%/cover fixed border-box ;
+    padding: 30px 50px 50px;
+    height: 650px;
+    border: 5px dashed gold;
+    box-sizing: border-box;
+    filter:  brightness(90%);
+}
+/* circle at 100% , black 30% ,#ff8c00 30% , gold 40%, #ff8c00 60% , black 60% */
+#background:hover {
+    filter: blur(0) brightness(80%) contrast(130%);
+}
+/* 
+@font-face {
+    font-family: "vazir";
+    src : url(./vazirmatn-master/fonts/webfonts/Vazirmatn-Medium.woff2)
+} */
+.css-h2{
+    font :  500 italic 40px "vazir" ;
+    text-shadow: -2px 4px rgb(240 128 128 / 80%);
+}
+
+.p-header {
+    font : 10px/1.8 "vazir thin";
+    text-decoration: underline rgb(240 128 128);
+    text-align: center;
+    word-spacing: 6px;
+    word-break: break-all;
+
+}
+
+/* text-decoration . text-shadow . text-align .  word-break . word-spacing . letter-spacing . white-space  */

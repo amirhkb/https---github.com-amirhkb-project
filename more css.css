@@ -1,0 +1,12 @@
+#origin {
+    color: aqua;
+    width: 100%;
+    
+    background: url(./images/800px-Gigachad.png) 0px 50%/cover no-repeat  red;
+    /* background-clip: content-box; */
+    background-origin: border-box;
+    height: 600px;
+    border: 6px dashed aqua;
+    padding: 60px;
+    box-sizing: border-box;
+}
